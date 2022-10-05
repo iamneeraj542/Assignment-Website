@@ -4,26 +4,29 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<title>Assignments</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-	<div class="main-body">
-		<nav id="navbar">
-			<header>Documentation Menu</header>
-			<a href="#Intro" class="nav-link">
-				What is C++</a>
-			<a href="#Object" class="nav-link">
-				Objects and Classes</a>
-			<a href="#Inheritance" class="nav-link">
-				Inheritance</a>
-			<a href="#Polymorphism" class="nav-link">
-				Polymorphism</a>
-			<a href="#Abstraction" class="nav-link">
-				Abstraction</a>
-			<a href="#Encapsulation" class="nav-link">
-				Encapsulation</a>
-		</nav>
 
+	<nav class="navbar">
+		<div class="max-width">
+			<div class="logo"><a href="#">LOGO.</a></div>
+			<ul id="menu" class="menu">
+				<li><a href="#Intro" onclick="clicked()" class="menu-btn">What is C++</a></li>
+				<li><a href="#Object" onclick="clicked()" class="menu-btn">Objects and Classes</a></li>
+				<li><a href="#Inheritance" onclick="clicked()" class="menu-btn">Inheritance</a></li>
+				<li><a href="#Polymorphism" onclick="clicked()" class="menu-btn">Polymorphism</a></li>
+				<li><a href="#Abstraction" onclick="clicked()" class="menu-btn">Abstraction</a></li>
+				<li><a href="#Encapsulation" onclick="clicked()" class="menu-btn">Encapsulation</a></li>
+			</ul>
+			<div id="menu-btn" class="menu-btn">
+				<i class="fas fa-bars"></i>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="main-body">
 		<main id="main-doc">
 			<section class="main-section" id="Intro">
 				<header>
@@ -343,5 +346,6 @@
 		</main>
 	</div>
 </body>
+<script src="app.js"></script>
 
 </html>
