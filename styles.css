@@ -7,6 +7,9 @@ html {
 	scroll-behavior: smooth;
 }
 
+.logo{
+	margin-left: 5em;
+}
 div.main-body {
 	display: grid;
 	width: 90%;
@@ -47,7 +50,7 @@ code {
 	justify-content: space-between;
 }
 
-.navbar .logo a {
+.navbar .logo .a {
 	color: #fff;
 	font-size: 30px;
 	font-weight: 600;
