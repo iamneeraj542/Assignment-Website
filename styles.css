@@ -131,3 +131,8 @@ code {
 	}
 
 }
+/* Bottom */
+.bottom{
+	padding: 2% 7%;
+	background-color: grey;
+}
