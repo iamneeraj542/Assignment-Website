@@ -42,6 +42,7 @@ code {
 	padding: 15px 0;
 	font-family: 'Ubuntu', sans-serif;
 	background-color: gray;
+	line-height: 1rem;
 }
 
 .navbar .max-width {
@@ -85,6 +86,59 @@ code {
 	display: none;
 	margin-right: 20px;
 }
+
+.footer {
+	position: relative;
+	font-family: 'Ubuntu', sans-serif;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: grey;
+	color: white;
+	text-align: center;	
+	line-height: 3rem;
+ }
+
+ .footer .a-link{
+	text-decoration: none;
+
+ }
+
+ .footer .right-btn{
+	text-align: right;
+ }
+
+ /* dark-mode starts */
+ .mode {
+	float:right;
+	margin-right: 43%;
+}
+/* .change {
+	cursor: pointer;
+	border: 1px solid #555;
+	border-radius: 40%;
+	width: 20px;
+	text-align: center;
+	padding: 5px;
+	margin-left: 8px;
+} */
+/* .dark{
+	background-color: #222;
+	color: #e6e6e6;
+} */
+.dark-mode {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+
+}
+.light-mode {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+
+}
+ /* dark-mode ends */
 
 
 @media (max-width: 964px) {
