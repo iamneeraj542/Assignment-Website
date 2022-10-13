@@ -4,8 +4,11 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<title>Assignments</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+		integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	
 </head>
 
 <body>
@@ -26,7 +29,7 @@
 			</div>
 		</div>
 	</nav>
-	
+
 	<div class="main-body">
 		<main id="main-doc">
 			<section class="main-section" id="Intro">
@@ -61,7 +64,7 @@
 					<br><br>Let us now look at the program :<br>
 				</p>
 				<code>
-					#include<iostream>
+					#include &lt;iostream&gt; 
 					<br>
 					using namespace std;
 					<br>
@@ -69,7 +72,7 @@
 					<br>
 						{
 							<br>
-							cout〈〈"Hello World";
+							cout <<"Hello World";
 							<br>
 							return 0;
 							<br>
@@ -346,7 +349,41 @@
 			</section>
 		</main>
 	</div>
+
+	<darkmode>
+		<div class="mode">
+			
+			<button onclick="darkMode()">Darkmode
+				<button onclick="lightMode()">LightMode</button></button>
+				<script>
+					function darkMode() {
+						var element = document.body;
+						var content = document.getElementById("DarkModetext");
+						element.className = "dark-mode";
+						content.innerText = "Dark Mode is ON";
+					}
+					function lightMode() {
+						var element = document.body;
+						var content = document.getElementById("DarkModetext");
+						element.className = "light-mode";
+						content.innerText = "Dark Mode is OFF";
+					}
+					</script>
+		</div><br><br>
+	</darkmode>
+
+		<!-- Copyright -->
+		 <div class="footer">
+			<!-- <a class="right-btn" href="contactUs.html">Contact us</a> -->
+
+			<div>© 2022 Copyright:
+				<a class="a-link"> C++ Official Website</a></div></div>  
+		<!-- Copyright -->
+
+	
+
 </body>
 <script src="app.js"></script>
+
 
 </html>
